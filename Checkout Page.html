@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>结算 - 矿机商城</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav>
+    <div class="logo">
+      <a href="#">矿机商城</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">首页</a></li>
+      <li><a href="#">矿机产品</a></li>
+      <li><a href="#">购物车</a></li>
+    </ul>
+  </nav>
+
+  <!-- 结算 -->
+  <section class="checkout">
+    <h2>结算</h2>
+    <form action="#">
+      <div class="form-group">
+        <label for="name">姓名：</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="address">收货地址：</label>
+        <input type="text" id="address" required>
+      </div>
+      <div class="form-group">
+        <label for="payment">支付方式：</label>
+        <select id="payment" required>
+          <option value="credit-card">信用卡</option>
+          <option value="paypal">PayPal</option>
+          <option value="crypto">加密货币</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">提交订单</button>
+    </form>
+  </section>
+
+  <!-- 底部信息 -->
+  <footer>
+    <p>&copy; 2024 矿机商城 | 隐私政策 | 退货政策</p>
+  </footer>
+</body>
+</html>
